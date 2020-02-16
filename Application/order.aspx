@@ -10,10 +10,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
-             <table width="60%">
-            <tr style="text-align:center; background-color:#bdbdbd"><td height="30">已选车次</td><td>请选择坐席</td><td>请选择购票张数</td><td>操作</td></tr>
+             <table style="width:60%">
+            <tr style="text-align:center; background-color:#bdbdbd"><td style="height:30px">已选车次</td><td>请选择坐席</td><td>请选择购票张数</td><td>操作</td></tr>
             <tr style="text-align:center;">
-                <td height="30"><%=TarinNo %></td>
+                <td style="height:30px"><%=TarinNo %></td>
                 <td>
                     <asp:DropDownList ID="DropDownList1" runat="server">
                         <asp:ListItem Value="2" Text="二等座"></asp:ListItem>
