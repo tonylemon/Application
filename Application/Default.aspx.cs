@@ -21,6 +21,7 @@ namespace Application
         public void SetApplication(string TarinNo, int FirstClass, int BusinessClass, int EconomyClass)
         {
             Application[TarinNo] = new OrderInfo { FirstClass = FirstClass, BusinessClass = BusinessClass, EconomyClass = EconomyClass };
+           
         }
     }
    

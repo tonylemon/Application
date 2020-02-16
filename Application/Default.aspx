@@ -26,7 +26,7 @@
         </div>
         <hr></h>  <!--两道横线-->
         <hr></hr>
-    <div>
+        <div>
     <table align="center" style="border-collapse:collapse;border-spacing:1px;text-align:center; width:1000px">
         <tr style="background-color:#0094ff;color:#fff;text-align:center;">
             <td style="width:100px;height:40px;text-align:center">车次</td>
