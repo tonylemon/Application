@@ -17,13 +17,14 @@ namespace Application
             Application["Android"] = 0;
             Application["Iphone"] = 0;
             Application["Ipad"] = 0;
+            Application["CurrentQueue"] = 0;     //训练10
         }
         void Session_Start(object sender, EventArgs e)
         {
             Application.Lock();       //对Application对象加锁，以防止因为多个用户同时访问页面造成并行同时将访问人数加1
             //实例05：网站访问计数器
             Application["count"] = (int)Application["count"] + 1;          //当用户访问网站时将计数器加1
-
+            Application["CurrentQueue"] = (int)Application["CurrentQueue"] + 1;     //训练10
             //训练九：分别统计PC端、Android端、iPhone端、以及iPad端访问的总次数
             var Names = new
             {
